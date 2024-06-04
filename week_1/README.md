@@ -66,6 +66,19 @@
    - [https://docs.python.org/3/tutorial/index.html]()
 
 ## Advance Python
+- Static Methods
+- Class Methods
+- Decorators
+- Metaclasses
+- Lambda Funtions
+- Concurrency and Parallelism
+    - Threading and Multiprocessing
+    - Concurrent Programming
+- Comprehensions(List,Dictionary,Set)
+- Context Managers
+- Extended Keywords (Args and Kwargs)
+- Python Generators and Iterators
+- Indexing, slicing
 
 ## Git 
 
