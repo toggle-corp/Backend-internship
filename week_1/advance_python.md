@@ -50,3 +50,9 @@ print(MyClass.class_method(7))  # Output: 10
 - Exercise
     1. Create a class `Counter` with a class attribute `count`. Add a class method increment that increments the count by 1. Add another class method reset that sets the count back to 0.
     2. Create a class `Date` with attributes `day`, `month`, and `year`. Add a class method `today` that returns a new instance of Date with the current date.
+
+**Decorator**
+- [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search]()
+- Exercise
+   1. Create a decorator that modifies the return value of a function by doubling it.
+   2. 
