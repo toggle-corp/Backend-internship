@@ -21,9 +21,8 @@ print(MathOperations.subtract(10, 4))  # Output: 6
 In this example, the MathOperations class features static methods add and subtract for performing basic arithmetic operations. These methods can be directly invoked on the class without creating an instance, providing a convenient and state-independent way to perform mathematical operations.
 
  - Exercise
-    1. Create a class called StringOperations with a static method is_palindrome that takes a string as an argument and returns True if the string is a palindrome, and False otherwise.
-    2. Create a class called DateUtils with a static method format_date that takes a date object and returns it as a string in the format YYYY-MM-DD.
-    3. Create a class called StringOperations with a static method is_palindrome that takes a string as an argument and returns True if the string is a palindrome, and False otherwise.
+    1. Create a class called `StringOperations` with a static method `is_palindrome` that takes a string as an argument and returns `True` if the string is a palindrome, and `False` otherwise.
+    2. Create a class called `DateUtils` with a static method `format_date` that takes a date object and returns it as a string in the format `YYYY-MM-DD`.
 
 **Class Methods**
 
@@ -48,3 +47,5 @@ obj2 = MyClass(10)
 print(MyClass.class_method(3))  # Output: 3
 print(MyClass.class_method(7))  # Output: 10
 ```
+- Exercise
+    1. Create a class `Counter` with a class attribute `count`. Add a class method increment that increments the count by 1. Add another class method reset that sets the count back to 0.
