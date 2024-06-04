@@ -55,4 +55,4 @@ print(MyClass.class_method(7))  # Output: 10
 - [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search]()
 - Exercise
    1. Create a decorator that modifies the return value of a function by doubling it.
-   2. 
+   2. Write a Python program to create a decorator function to measure the execution time of a function.
