@@ -19,6 +19,8 @@ person1 = Person("Kishan", 20)
 # Calling the instance method
 print(person1.introduce())  # Output: Hi, I'm Kishan and I'm 30 years old.
 ```
+ - Exercise
+   - Define a Rectangle class with attribures `width`, `height`. Wrire a instance methods to calculate area of the rectangle and perimeter of the rectangle.
 
 **Static Method**
 
