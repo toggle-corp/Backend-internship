@@ -56,3 +56,24 @@ print(MyClass.class_method(7))  # Output: 10
 - Exercise
    1. Create a decorator that modifies the return value of a function by doubling it.
    2. Write a Python program to create a decorator function to measure the execution time of a function.
+
+**Lambda Function**
+
+Python Lambda Functions are anonymous functions means that the function is without a name. As we already know the def keyword is used to define a normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in python.
+
+Difference Between Lambda functions and def defined function
+The code defines a cube function using both the ‘def' keyword and a lambda function. It calculates the cube of a given number (5 in this case) using both approaches and prints the results. The output is 125 for both the ‘def' and lambda functions, demonstrating that they achieve the same cube calculation.
+
+```
+def cube(y):
+	return y*y*y
+
+lambda_cube = lambda y: y*y*y
+print("Using function defined with `def` keyword, cube:", cube(5))
+print("Using lambda function, cube:", lambda_cube(5))
+```
+
+- Exercise
+   1. Write a Python program to filter a list of even integers using Lambda.
+   2. Write a Python program to filter a list of odd integers using Lambda.
+   3. Write a Python program to square and cube every number in a given list of integers using Lambda.
