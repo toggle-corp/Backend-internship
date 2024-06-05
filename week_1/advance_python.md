@@ -1,5 +1,25 @@
 ## Advance Python
 
+**Instance Method**
+
+Instance methods are the most common type of methods in Python classes. They are associated with instances of a class and operate on the instance’s data. When defining an instance method, the method’s first parameter is typically named self, which refers to the instance calling the method. This allows the method to access and manipulate the instance’s attributes.
+```
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        return f"Hi, I'm {self.name} and I'm {self.age} years old."
+
+
+# Creating an instance of the class
+person1 = Person("Kishan", 20)
+
+# Calling the instance method
+print(person1.introduce())  # Output: Hi, I'm Kishan and I'm 30 years old.
+```
+
 **Static Method**
 
 Static methods, as the name suggests, are not bound to either the class or its instances. They are defined using the @staticmethod decorator and do not take a reference to the instance or the class as their first parameter. Static methods are essentially regular functions within the class namespace and are useful for tasks that do not depend on instance-specific or class-specific data.
