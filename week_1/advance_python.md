@@ -77,3 +77,12 @@ print("Using lambda function, cube:", lambda_cube(5))
    1. Write a Python program to filter a list of even integers using Lambda.
    2. Write a Python program to filter a list of odd integers using Lambda.
    3. Write a Python program to square and cube every number in a given list of integers using Lambda.
+
+**Comprehenssion**
+  - [https://www.geeksforgeeks.org/comprehensions-in-python/]()
+- Exercises
+   1. Given a list of numbers, remove all odd numbers from the list.
+   2. Create a dictionary of squares of numbers from 1 to 10 using dictionary comprehenssion.
+   3.  Create a dictionary of even numbers as keys and their squares as values using dictionary comprehenssion.
+   4.  Generate a set of squares of numbers from 1 to 10 using set comprehenssion.
+   5.  Generate a set of tuples containing numbers and their squares using set comprehenssion.
