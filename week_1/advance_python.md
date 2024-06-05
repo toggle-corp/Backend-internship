@@ -52,7 +52,7 @@ print(MyClass.class_method(7))  # Output: 10
     2. Create a class `Date` with attributes `day`, `month`, and `year`. Add a class method `today` that returns a new instance of Date with the current date.
 
 **Decorator**
-- [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search]()
+- [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search](https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search)
 - Exercise
    1. Create a decorator that modifies the return value of a function by doubling it.
    2. Write a Python program to create a decorator function to measure the execution time of a function.
@@ -79,7 +79,7 @@ print("Using lambda function, cube:", lambda_cube(5))
    3. Write a Python program to square and cube every number in a given list of integers using Lambda.
 
 **Comprehenssion**
-  - [https://www.geeksforgeeks.org/comprehensions-in-python/]()
+  - [https://www.geeksforgeeks.org/comprehensions-in-python/](https://www.geeksforgeeks.org/comprehensions-in-python/)
 - Exercises
    1. Given a list of numbers, remove all odd numbers from the list.
    2. Create a dictionary of squares of numbers from 1 to 10 using dictionary comprehenssion.
