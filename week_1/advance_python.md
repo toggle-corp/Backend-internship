@@ -115,3 +115,11 @@ print("Using lambda function, cube:", lambda_cube(5))
 - Exercise
    1. Write a function calculate that takes any number of positional and keyword arguments. If a keyword argument operation is provided, it performs the specified operation (add, subtract, multiply, divide) on all the positional arguments. If no operation is provided, it should default to add.
    2. Write a function process_data that takes any number of positional and keyword arguments, prints the sum of all positional arguments, and then prints all the keyword arguments.
+ 
+**Iterator and Generators**
+ - [https://www.w3schools.com/python/python_iterators.asp](https://www.w3schools.com/python/python_iterators.asp)
+ - [https://www.geeksforgeeks.org/generators-in-python/](https://www.geeksforgeeks.org/generators-in-python/)
+
+- Exercise
+   1. Write a Python program that creates a generator function that yields cubes of numbers from 1 to n. Accept n from the user.
+   2.  Write a Python program to implement a generator that generates random numbers within a given range.
