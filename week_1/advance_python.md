@@ -126,3 +126,7 @@ print("Using lambda function, cube:", lambda_cube(5))
 
 **Indexing And Slicing**
    - [https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/](https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/)
+
+**Context Manager**
+   - [https://www.geeksforgeeks.org/context-manager-in-python/](https://www.geeksforgeeks.org/context-manager-in-python/)
+
