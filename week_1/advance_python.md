@@ -123,3 +123,6 @@ print("Using lambda function, cube:", lambda_cube(5))
 - Exercise
    1. Write a Python program that creates a generator function that yields cubes of numbers from 1 to n. Accept n from the user.
    2.  Write a Python program to implement a generator that generates random numbers within a given range.
+
+**Indexing And Slicing**
+   - [https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/](https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/)
