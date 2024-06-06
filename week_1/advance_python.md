@@ -108,3 +108,10 @@ print("Using lambda function, cube:", lambda_cube(5))
    3.  Create a dictionary of even numbers as keys and their squares as values using dictionary comprehenssion.
    4.  Generate a set of squares of numbers from 1 to 10 using set comprehenssion.
    5.  Generate a set of tuples containing numbers and their squares using set comprehenssion.
+
+**Extended Keywords** (**args, kwargs**)
+ - [https://www.geeksforgeeks.org/args-kwargs-python/](https://www.geeksforgeeks.org/args-kwargs-python/)
+
+- Exercise
+   1. Write a function calculate that takes any number of positional and keyword arguments. If a keyword argument operation is provided, it performs the specified operation (add, subtract, multiply, divide) on all the positional arguments. If no operation is provided, it should default to add.
+   2. Write a function process_data that takes any number of positional and keyword arguments, prints the sum of all positional arguments, and then prints all the keyword arguments.
