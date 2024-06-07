@@ -126,4 +126,4 @@ print("Using lambda function, cube:", lambda_cube(5))
 
 **Indexing And Slicing**
    - [https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/](https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/)
-   - [https://realpython.com/lessons/indexing-and-slicing/]
+   - [https://realpython.com/lessons/indexing-and-slicing/](https://realpython.com/lessons/indexing-and-slicing/)
