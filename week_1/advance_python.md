@@ -126,6 +126,7 @@ print("Using lambda function, cube:", lambda_cube(5))
 
 **Indexing And Slicing**
    - [https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/](https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/)
+   - [https://realpython.com/lessons/indexing-and-slicing/](https://realpython.com/lessons/indexing-and-slicing/)
 
 **Context Manager**
    - [https://www.geeksforgeeks.org/context-manager-in-python/](https://www.geeksforgeeks.org/context-manager-in-python/)
@@ -138,6 +139,4 @@ print("Using lambda function, cube:", lambda_cube(5))
    - Multiprocessing is a technique where parallelism in its truest form is achieved. Multiple processes are run across multiple CPU cores, which do not share the resources among them. Each process can have many threads running in its own memory space. In Python, each process has its own instance of Python interpreter doing the job of executing the instructions.
 
  - [https://www.geeksforgeeks.org/multithreading-python-set-1/](https://www.geeksforgeeks.org/multithreading-python-set-1/)
- - [https://www.geeksforgeeks.org/multithreading-python-set-1/](https://www.geeksforgeeks.org/multithreading-python-set-1/)
-
 
