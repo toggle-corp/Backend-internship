@@ -1,5 +1,28 @@
 ## Advance Python
 
+**Instance Method**
+
+Instance methods are the most common type of methods in Python classes. They are associated with instances of a class and operate on the instance’s data. When defining an instance method, the method’s first parameter is typically named self, which refers to the instance calling the method. This allows the method to access and manipulate the instance’s attributes.
+```
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        return f"Hi, I'm {self.name} and I'm {self.age} years old."
+
+
+# Creating an instance of the class
+person1 = Person("Kishan", 20)
+
+# Calling the instance method
+print(person1.introduce())  # Output: Hi, I'm Kishan and I'm 30 years old.
+```
+ - Exercise
+   - Define a Rectangle class with attribures `width`, `height`. Wrire a instance methods to calculate area of the rectangle and perimeter of the rectangle.
+
+
 **Static Method**
 
 Static methods, as the name suggests, are not bound to either the class or its instances. They are defined using the @staticmethod decorator and do not take a reference to the instance or the class as their first parameter. Static methods are essentially regular functions within the class namespace and are useful for tasks that do not depend on instance-specific or class-specific data.
@@ -52,7 +75,9 @@ print(MyClass.class_method(7))  # Output: 10
     2. Create a class `Date` with attributes `day`, `month`, and `year`. Add a class method `today` that returns a new instance of Date with the current date.
 
 **Decorator**
-- [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search]()
+
+- [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search](https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search)
+
 - Exercise
    1. Create a decorator that modifies the return value of a function by doubling it.
    2. Write a Python program to create a decorator function to measure the execution time of a function.
@@ -77,3 +102,45 @@ print("Using lambda function, cube:", lambda_cube(5))
    1. Write a Python program to filter a list of even integers using Lambda.
    2. Write a Python program to filter a list of odd integers using Lambda.
    3. Write a Python program to square and cube every number in a given list of integers using Lambda.
+
+
+**Comprehenssion**
+  - [https://www.geeksforgeeks.org/comprehensions-in-python/](https://www.geeksforgeeks.org/comprehensions-in-python/)
+- Exercises
+   1. Given a list of numbers, remove all odd numbers from the list.
+   2. Create a dictionary of squares of numbers from 1 to 10 using dictionary comprehenssion.
+   3.  Create a dictionary of even numbers as keys and their squares as values using dictionary comprehenssion.
+   4.  Generate a set of squares of numbers from 1 to 10 using set comprehenssion.
+   5.  Generate a set of tuples containing numbers and their squares using set comprehenssion.
+
+**Extended Keywords** (**args, kwargs**)
+ - [https://www.geeksforgeeks.org/args-kwargs-python/](https://www.geeksforgeeks.org/args-kwargs-python/)
+
+- Exercise
+   1. Write a function calculate that takes any number of positional and keyword arguments. If a keyword argument operation is provided, it performs the specified operation (add, subtract, multiply, divide) on all the positional arguments. If no operation is provided, it should default to add.
+   2. Write a function process_data that takes any number of positional and keyword arguments, prints the sum of all positional arguments, and then prints all the keyword arguments.
+ 
+**Iterator and Generators**
+ - [https://www.w3schools.com/python/python_iterators.asp](https://www.w3schools.com/python/python_iterators.asp)
+ - [https://www.geeksforgeeks.org/generators-in-python/](https://www.geeksforgeeks.org/generators-in-python/)
+
+- Exercise
+   1. Write a Python program that creates a generator function that yields cubes of numbers from 1 to n. Accept n from the user.
+   2.  Write a Python program to implement a generator that generates random numbers within a given range.
+
+**Indexing And Slicing**
+   - [https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/](https://www.geeksforgeeks.org/how-to-index-and-slice-strings-in-python/)
+   - [https://realpython.com/lessons/indexing-and-slicing/](https://realpython.com/lessons/indexing-and-slicing/)
+
+**Context Manager**
+   - [https://www.geeksforgeeks.org/context-manager-in-python/](https://www.geeksforgeeks.org/context-manager-in-python/)
+
+**Threading in Python**
+   - A program is an executable file which consists of a set of instructions to perform some task and is usually stored on the disk of your computer.
+   - A process is what we call a program that has been loaded into memory along with all the resources it needs to operate. It has its own memory space.
+   - A thread is the unit of execution within a process. A process can have multiple threads running as a part of it, where each thread uses the process’s memory space and shares it with other threads.
+   - Multithreading is a technique where multiple threads are spawned by a process to do different tasks, at about the same time, just one after the other. This gives you the illusion that the threads are running in parallel, but they are actually run in a concurrent manner. In Python, the Global Interpreter Lock (GIL) prevents the threads from running simultaneously.
+   - Multiprocessing is a technique where parallelism in its truest form is achieved. Multiple processes are run across multiple CPU cores, which do not share the resources among them. Each process can have many threads running in its own memory space. In Python, each process has its own instance of Python interpreter doing the job of executing the instructions.
+
+ - [https://www.geeksforgeeks.org/multithreading-python-set-1/](https://www.geeksforgeeks.org/multithreading-python-set-1/)
+
