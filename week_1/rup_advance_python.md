@@ -22,6 +22,7 @@ print(person1.introduce())  # Output: Hi, I'm Kishan and I'm 30 years old.
  - Exercise
    - Define a Rectangle class with attribures `width`, `height`. Wrire a instance methods to calculate area of the rectangle and perimeter of the rectangle.
 
+
 **Static Method**
 
 Static methods, as the name suggests, are not bound to either the class or its instances. They are defined using the @staticmethod decorator and do not take a reference to the instance or the class as their first parameter. Static methods are essentially regular functions within the class namespace and are useful for tasks that do not depend on instance-specific or class-specific data.
@@ -74,7 +75,9 @@ print(MyClass.class_method(7))  # Output: 10
     2. Create a class `Date` with attributes `day`, `month`, and `year`. Add a class method `today` that returns a new instance of Date with the current date.
 
 **Decorator**
+
 - [https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search](https://www.geeksforgeeks.org/decorators-in-python/?ref=header_search)
+
 - Exercise
    1. Create a decorator that modifies the return value of a function by doubling it.
    2. Write a Python program to create a decorator function to measure the execution time of a function.
@@ -99,6 +102,7 @@ print("Using lambda function, cube:", lambda_cube(5))
    1. Write a Python program to filter a list of even integers using Lambda.
    2. Write a Python program to filter a list of odd integers using Lambda.
    3. Write a Python program to square and cube every number in a given list of integers using Lambda.
+
 
 **Comprehenssion**
   - [https://www.geeksforgeeks.org/comprehensions-in-python/](https://www.geeksforgeeks.org/comprehensions-in-python/)
