@@ -1,4 +1,4 @@
-###Exercise 1
+**Exercise 1**
 
  - Create a repository in github.
  - Clone the repo into your local system.
@@ -11,7 +11,7 @@
  - Push the main branch to the remote repository.
 
 
-###Exercise 2
+**Exercise 2**
 
  - Install Django.
  - Create a project in django.
