@@ -1,4 +1,4 @@
-##Django Guide
+## Django Topics
 
 **Django Overview**
 
